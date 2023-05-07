@@ -12,14 +12,18 @@ export default function App() {
   function handleSubmit(e) {
     e.preventDefault()
 
-    setToDos((currentTodos) => {
-      return [
-        ...currentTodos,
-       {id: crypto.randomUUID(), title: newItem, 
-       completed: false}, 
-      ]
-    })
-
+    //check if the title is null
+    if (newItem !== "") {
+      setToDos((currentTodos) => {
+            return [
+              ...currentTodos,
+            {id: crypto.randomUUID(), title: newItem, 
+            completed: false}, 
+            ]
+          })
+    } else {
+      alert("Please Give Title to Task")
+    }
     setNewItem("")
   }
 
