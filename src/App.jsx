@@ -54,8 +54,8 @@ export default function App() {
       <button className="btn"> Add </button>
     </div>
   </form>
-  <h1 className="header"> To Do List </h1>
   <ul className="list">
+  <h1 className="header"> To Do List </h1>
     {todos.map(todo => {
       return (
       <li key={todo.id}>
