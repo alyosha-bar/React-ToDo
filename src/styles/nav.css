@@ -1,0 +1,24 @@
+
+nav {
+    background-color: beige;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-links:hover {
+    background-color: bisque;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 15px 70px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
