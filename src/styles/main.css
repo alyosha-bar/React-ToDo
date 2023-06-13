@@ -1,7 +1,13 @@
 
 
 .main-part {
-    margin: 5%;
-    padding: 80px;
+    padding: 130px;
     background-color: azure;
+    word-spacing: 0.2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-part .about, .main-part .experience {
+    margin: 3% 5%;
 }
