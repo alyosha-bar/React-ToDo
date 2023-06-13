@@ -1,26 +1,43 @@
 
 nav {
-    background-color: beige;
+    background-color: black;
     position: sticky;
     top: 0;
+    
 }
 
 .navbar {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .nav-links:hover {
-    background-color: bisque;
+    background-color: rgb(109, 109, 109);
 }
 
-.nav-links {
+.nav-links, .nav-button {
     list-style: none;
     padding: 25px 70px;
 }
 
 .nav-links a {
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    color: azure;
+}
+
+.contact-btn {
+    width: 120px;
+    height: 30px;
+    border-radius: 45 px;
+    border: none;
+    font-size: 1.1rem;
+}
+
+.contact-btn:hover {
+    background-color: rgb(247, 115, 115);
+    cursor: pointer;
+    scale: 109%;
 }
