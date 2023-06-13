@@ -6,6 +6,7 @@
     word-spacing: 0.2rem;
     display: flex;
     flex-direction: row;
+    font-size: large;
 }
 
 .main-part .about, .main-part .experience {
