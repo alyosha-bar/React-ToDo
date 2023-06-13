@@ -1,6 +1,8 @@
 
 nav {
     background-color: beige;
+    position: sticky;
+    top: 0;
 }
 
 .navbar {
@@ -15,7 +17,7 @@ nav {
 
 .nav-links {
     list-style: none;
-    padding: 15px 70px;
+    padding: 25px 70px;
 }
 
 .nav-links a {

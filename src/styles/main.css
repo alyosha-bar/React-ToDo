@@ -9,6 +9,10 @@
     font-size: large;
 }
 
+.main-part h1 {
+    text-align: center;
+}
+
 .main-part .about, .main-part .experience {
-    margin: 3% 5%;
+    margin: 0.5% 3.5%;
 }
