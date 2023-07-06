@@ -6,6 +6,7 @@ section {
     min-height: 400px;
     padding: 100px 20vw;
     padding-top: 150px;
+    overflow-x: hidden;
 }
 
 .blue {
@@ -13,11 +14,11 @@ section {
 }
 
 .red {
-    background-color: red;
+    background-color: #2F8886;
 }
 
 .green {
-    background-color: green;
+    background-color: #84C69B;
 }
 
 .wave {
@@ -37,7 +38,7 @@ section {
 }
 
 .blue .wave .shape-fill {
-    fill: red;
+    fill: #2F8886;
 }
 
 .green .wave .shape-fill {
@@ -63,7 +64,7 @@ section {
 }
 
 .wave-cascade .shape-fill {
-    fill: #000000;
+    fill: #1A2F4B;
 }
 
 
@@ -99,11 +100,44 @@ section {
 }
 
 .green-fill .shape-fill {
-    fill: green;
+    fill: #84C69B;
+}
+
+.green {
+    padding-top: 10%;
 }
 
 img {
-    margin-top: 2%;
-    width: 400px;
-    height: 200px;
+    margin-top: 1%;
+    width: 550px;
+    height: auto;
+}
+
+.clients {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.clients li {
+    text-decoration: none;
+    margin: 15px;
+}
+
+.list-socials {
+    display: flex;
+    list-style: none;
+    margin-left: 1000px;
+    padding-top: 25px;
+}
+
+.socials {
+    margin: 50px 100px;
+    font-size: 2rem;
+}
+
+.socials a {
+    color: white;
+    text-decoration: underline;
 }

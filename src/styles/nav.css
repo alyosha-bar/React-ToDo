@@ -1,6 +1,6 @@
 
 nav {
-    background-color: black;
+    background-color: #1A2F4B;
     position: sticky;
     top: 0;
     
@@ -31,7 +31,7 @@ nav {
 .contact-btn {
     width: 120px;
     height: 30px;
-    border-radius: 45 px;
+    border-radius: 45px;
     border: none;
     font-size: 1.1rem;
 }

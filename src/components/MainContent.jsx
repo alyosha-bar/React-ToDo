@@ -29,11 +29,19 @@ function MainContent() {
             </div>
         </section>
         <section className='blue'>
-            <h1 className='title' >Nice Curves</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos laboriosam magni 
-                amet expedita ex! Sunt dolores laudantium, maxime blanditiis dolor consequatur culpa accusamus 
-                vitae incidunt necessitatibus corrupti distinctio debitis esse.
-            </p>
+        <h1 className='title'> Experience </h1>
+                <p className='content'>We are a marketing communications agency which takes pleasure in connecting clients
+                    with their target audiences. Our aim is to develop long-term partnerships with our 
+                    clients by delivering excellent business results: higher profile for their names, brands, 
+                    products and services; higher sales, higher footfall, better profit margins. </p>
+
+                <br />
+                <p className='content'>
+                    We offer long-term experience in marketing communications plus insights based on 
+                    personal relationships with leading writers, editors, publishers, bloggers and broadcasters. 
+                    We rely on creativity to achieve stand-out and carefully-composed storylines to achieve consumer 
+                    engagement. Our programmes combine traditional media with online and social media, 
+                    direct-contact events, ambient marketing and endorsement by key opinion formers.</p>
             <div className="wave">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" 
@@ -47,7 +55,13 @@ function MainContent() {
             
 
             <h1 className='title'> Clients </h1>
-            <img src="../img/avastLogo.png" alt="" />
+            <ul className='clients'>
+                <li><img src="src\img\avastLogo.png" alt="" /></li>
+                <li><img src="src\img\avastLogo.png" alt="" /></li>
+                <li><img src="src\img\avastLogo.png" alt="" /></li>
+            </ul>
+            
+
 
             <div className="tilt">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -58,10 +72,15 @@ function MainContent() {
 
 
         <section>
-            <h1> Sample </h1>
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, dolore ipsa dicta aliquam 
-                explicabo quas magnam repellat, beatae repudiandae fugit vel fuga, accusantium aliquid 
-                sequi optio. Ipsa numquam sint voluptatem?</p>
+
+            <footer>
+                <ul className='list-socials'>
+                    <li className='socials'> <a href=""> Instagram </a> </li>
+                    <li className='socials'> <a href=""> Email </a> </li>
+                    <li className='socials'> <a href=""> Facebook </a> </li>
+                </ul>
+            </footer>
+
             <div className="tilt green-fill">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" className="shape-fill"></path>
@@ -90,19 +109,19 @@ function MainContent() {
     //         </div>
 
     //         <div className='experience'>
-    //             <h1> Experience </h1>
-    //             <p>We are a marketing communications agency which takes pleasure in connecting clients
-    //                 with their target audiences. Our aim is to develop long-term partnerships with our 
-    //                 clients by delivering excellent business results: higher profile for their names, brands, 
-    //                 products and services; higher sales, higher footfall, better profit margins. </p>
+                // <h1> Experience </h1>
+                // <p>We are a marketing communications agency which takes pleasure in connecting clients
+                //     with their target audiences. Our aim is to develop long-term partnerships with our 
+                //     clients by delivering excellent business results: higher profile for their names, brands, 
+                //     products and services; higher sales, higher footfall, better profit margins. </p>
 
-    //             <br />
-    //             <p>
-    //                 We offer long-term experience in marketing communications plus insights based on 
-    //                 personal relationships with leading writers, editors, publishers, bloggers and broadcasters. 
-    //                 We rely on creativity to achieve stand-out and carefully-composed storylines to achieve consumer 
-    //                 engagement. Our programmes combine traditional media with online and social media, 
-    //                 direct-contact events, ambient marketing and endorsement by key opinion formers.</p>
+                // <br />
+                // <p>
+                //     We offer long-term experience in marketing communications plus insights based on 
+                //     personal relationships with leading writers, editors, publishers, bloggers and broadcasters. 
+                //     We rely on creativity to achieve stand-out and carefully-composed storylines to achieve consumer 
+                //     engagement. Our programmes combine traditional media with online and social media, 
+                //     direct-contact events, ambient marketing and endorsement by key opinion formers.</p>
     //             </div>
     //     </div>
     // </div>
