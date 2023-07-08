@@ -14,7 +14,7 @@ nav {
 }
 
 .nav-links:hover {
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(58, 129, 156);
 }
 
 .nav-links, .nav-button {
@@ -29,15 +29,14 @@ nav {
 }
 
 .contact-btn {
-    width: 120px;
-    height: 30px;
+    width: 150px;
+    height: 35px;
     border-radius: 45px;
     border: none;
     font-size: 1.1rem;
 }
 
 .contact-btn:hover {
-    background-color: rgb(247, 115, 115);
+    background-color: rgb(204, 43, 43);
     cursor: pointer;
-    scale: 109%;
 }
