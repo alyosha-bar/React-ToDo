@@ -13,10 +13,6 @@ nav {
     align-items: center;
 }
 
-.nav-links:hover {
-    background-color: rgb(58, 129, 156);
-}
-
 .nav-links, .nav-button {
     list-style: none;
     padding: 25px 70px;
@@ -24,8 +20,42 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    font-size: 1.1rem;
     color: azure;
+}
+
+
+/* Define the keyframes for the animation */
+@keyframes underline-from-left {
+    0% {
+      width: 0;
+      left: 0;
+    }
+    100% {
+      width: 100%;
+      left: 0;
+    }
+  }
+  
+  /* Apply the animation to an element */
+  .nav-links a {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .nav-links a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px; /* Adjust the height as needed */
+    background-color: white; /* Change the color as needed */
+    animation: underline-from-left 0.5s ease-in-out forwards;
+  }
+  
+  /* Trigger the animation on hover */
+.nav-links a:hover::before {
+    width: 100%;
 }
 
 .contact-btn {
@@ -33,7 +63,6 @@ nav {
     height: 35px;
     border-radius: 45px;
     border: none;
-    font-size: 1.1rem;
 }
 
 .contact-btn:hover {
